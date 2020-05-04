@@ -37,7 +37,8 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="TOTAL POSITIF"
+                        android:contentDescription="@string/total_positif"
+                        android:text="@string/total_positif"
                         android:textColor="#FFF"
                         android:textSize="18sp" />
 
@@ -52,6 +53,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
+                            android:contentDescription="@string/nol"
                             android:text="0"
                             android:textColor="#FFF"
                             android:textSize="24sp"
@@ -70,6 +72,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:contentDescription="@string/orang"
                         android:text="ORANG"
                         android:textColor="#FFF"
                         android:textSize="18sp" />
@@ -131,6 +134,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:contentDescription="@string/orang"
                         android:text="ORANG"
                         android:textColor="#FFF"
                         android:textSize="18sp" />
@@ -159,7 +163,8 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="TOTAL MENINGGAL"
+                        android:contentDescription="@string/total_meninggal"
+                        android:text="@string/total_meninggal"
                         android:textColor="#FFF"
                         android:textSize="18sp" />
 
@@ -192,6 +197,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:contentDescription="@string/orang"
                         android:text="ORANG"
                         android:textColor="#FFF"
                         android:textSize="18sp" />
@@ -220,7 +226,8 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="INDONESIA"
+                        android:contentDescription="@string/indonesia"
+                        android:text="@string/indonesia"
                         android:textColor="#FFF"
                         android:textSize="18sp" />
 
@@ -254,7 +261,8 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginRight="5dp"
-                                    android:text="POSITIF"
+                                    android:contentDescription="@string/positif"
+                                    android:text="@string/positif"
                                     android:textColor="#FFF"
                                     android:textSize="18sp"
                                     android:textStyle="bold" />
@@ -279,7 +287,8 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="SEMBUH"
+                                    android:contentDescription="@string/sembuh"
+                                    android:text="@string/sembuh"
                                     android:textColor="#FFF"
                                     android:textSize="18sp"
                                     android:textStyle="bold" />
@@ -305,7 +314,8 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="MENIGGAL"
+                                    android:contentDescription="@string/meniggal"
+                                    android:text="@string/meniggal"
                                     android:textColor="#FFF"
                                     android:textSize="18sp"
                                     android:textStyle="bold" />

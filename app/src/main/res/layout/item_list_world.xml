@@ -21,7 +21,8 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:text="Negara : "
+                android:text="@string/negara"
+                android:contentDescription="@string/negara"
                 android:textSize="16sp"
                 android:textColor="#000"
                 android:textStyle="bold"
@@ -31,7 +32,8 @@
 
             <TextView
                 android:id="@+id/negara"
-                android:text="Indonesia"
+                android:text="@string/indonesia"
+                android:contentDescription="@string/indonesia"
                 android:textSize="16sp"
                 android:gravity="end"
                 android:layout_weight="1"
@@ -49,7 +51,8 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:text="Active : "
+                android:text="@string/active"
+                android:contentDescription="@string/active"
                 android:textSize="16sp"
                 android:textColor="#000"
                 android:textStyle="bold"
@@ -75,14 +78,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <TextView
+            <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_gravity="center"
                 android:src="@drawable/positif"/>
 
             <TextView
-                android:text="Confirmed"
+                android:text="@string/konfirmasi"
+                android:contentDescription="@string/konfirmasi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"/>
@@ -112,7 +116,8 @@
                 android:padding="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Deaths"/>
+                android:contentDescription="@string/meniggal"
+                android:text="@string/meniggal"/>
 
             <TextView
                 android:padding="10dp"
@@ -139,7 +144,7 @@
                 android:padding="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Recovered : "/>
+                android:text="@string/sembuh"/>
 
             <TextView
                 android:padding="10dp"

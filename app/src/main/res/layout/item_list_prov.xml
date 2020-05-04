@@ -27,7 +27,8 @@
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Provinsi : "/>
+                    android:contentDescription="@string/provinsi"
+                    android:text="@string/provinsi"/>
 
                 <TextView
                     android:id="@+id/prov"
@@ -38,7 +39,7 @@
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sragen"/>
+                    android:text="Jawa Barat"/>
 
             </LinearLayout>
 
@@ -56,7 +57,8 @@
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Active : "/>
+                    android:contentDescription="@string/active"
+                    android:text="@string/active"/>
 
                 <TextView
                     android:id="@+id/active"
@@ -86,7 +88,8 @@
                 android:padding="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Confirmed"/>
+                android:contentDescription="@string/positif"
+                android:text="@string/positif"/>
 
             <TextView
                 android:padding="10dp"
@@ -113,7 +116,8 @@
                 android:padding="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Deaths"/>
+                android:contentDescription="@string/meniggal"
+                android:text="@string/meniggal"/>
 
             <TextView
                 android:padding="10dp"
@@ -140,7 +144,8 @@
                 android:padding="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Recovered : "/>
+                android:contentDescription="@string/sembuh"
+                android:text="@string/sembuh"/>
 
             <TextView
                 android:padding="10dp"

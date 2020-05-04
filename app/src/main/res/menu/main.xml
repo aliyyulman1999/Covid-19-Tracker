@@ -4,10 +4,8 @@
     <item
         android:id="@+id/action_barchart"
         android:orderInCategory="100"
-        android:title="Bar Chart"
+        android:title="@string/grafik_data"
+        android:contentDescription="@string/grafik_data"
         app:showAsAction="never"/>
-    <item android:id="@+id/aboutme"
-        android:orderInCategory="100"
-        android:title="About Me" />
 
 </menu>

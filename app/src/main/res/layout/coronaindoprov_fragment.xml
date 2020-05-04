@@ -19,7 +19,8 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:background="@drawable/back_edittext"
-            android:hint="Cari Provinsi"
+            android:contentDescription="@string/cari_negara"
+            android:hint="@string/cari_provinsi"
             android:padding="15dp"/>
 
         <androidx.recyclerview.widget.RecyclerView

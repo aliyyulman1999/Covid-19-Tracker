@@ -5,12 +5,15 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/coronaGlobal"
-            android:title="Data Global" />
+            android:title="@string/data_global"
+            android:contentDescription="@string/data_global"/>
         <item
             android:id="@+id/globalindo"
-            android:title="Data Global | Indonesia"/>
+            android:title="@string/data_global_indonesia"
+            android:contentDescription="@string/data_global_indonesia"/>
         <item
             android:id="@+id/coronaindoprov"
-            android:title="Data Indonesia Provinsi"/>
+            android:title="@string/data_indonesia_provinsi"
+            android:contentDescription="@string/data_global_indonesia"/>
     </group>
 </menu>

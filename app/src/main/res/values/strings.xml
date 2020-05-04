@@ -22,4 +22,23 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="data_covid_19">Data Covid-19</string>
+    <string name="total_positif">TOTAL POSITIF</string>
+    <string name="nol">nol</string>
+    <string name="orang">orang</string>
+    <string name="total_meninggal">TOTAL MENINGGAL</string>
+    <string name="indonesia">INDONESIA</string>
+    <string name="positif">POSITIF</string>
+    <string name="sembuh">SEMBUH</string>
+    <string name="meniggal">MENIGGAL</string>
+    <string name="active">Active :</string>
+    <string name="cari_negara">Cari Negara</string>
+    <string name="cari_provinsi">Cari Provinsi</string>
+    <string name="negara">Negara :</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="konfirmasi">KONFIRMASI</string>
+    <string name="provinsi">Provinsi :</string>
+    <string name="data_global">Data Global</string>
+    <string name="data_global_indonesia">Data Global | Indonesia</string>
+    <string name="data_indonesia_provinsi">Data Indonesia Provinsi</string>
+    <string name="grafik_data">Grafik Data</string>
 </resources>
